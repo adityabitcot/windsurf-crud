@@ -24,7 +24,7 @@
 
 ## Description
 
-A basic CRUD application built with NestJS and PostgreSQL. This application provides a RESTful API for managing users with proper authentication, validation, and error handling.
+A modern CRUD application built with NestJS and PostgreSQL. This application provides a RESTful API for managing users with proper authentication, validation, and error handling. The project follows best practices for NestJS development and demonstrates the implementation of a clean architecture pattern.
 
 ## Project setup
 
