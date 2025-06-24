@@ -63,6 +63,7 @@ export class UsersService {
       return await this.usersRepository.save(user);
     } catch (error) {
       if (error.code === '23505') {
+        console.log("Email already exists");
         throw new ConflictException('Email already exists');
       }
       throw new InternalServerErrorException('Error updating user');
