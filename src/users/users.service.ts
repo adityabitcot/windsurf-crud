@@ -65,7 +65,6 @@ export class UsersService {
       if (error.code === '23505') {
         throw new ConflictException('Email already exists');
       }
-      console.error('Error updating user:', error);
       throw new InternalServerErrorException('Error updating user');
     }
   }
